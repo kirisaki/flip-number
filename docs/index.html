@@ -14,18 +14,43 @@
             height: 100vh;
             background-color: #333;
             color: #eee;
-            font-family: 'Fira Code', monospace;
             position: relative;
         }
         main {
-            width: 7rem;
-            height: 4rem;
+            width: 20rem;
+            height: 8rem;
             position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
             margin: auto;
+        }
+        h1 {
+            text-align: right;
+            font-family: 'Fira Code', monospace;
+        }
+        button {
+            padding: 0.5rem;
+            background-color: #333;
+            right: 0;
+            position: absolute;
+            color: #eee;
+            font-size: 1.5rem;
+            border-color: #eee;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 1.25rem;
+            transition: 0.2s;
+        }
+        button:hover {
+            background-color: #eee;
+            color: #333;
+        }
+        .disable{
+            background-color: #333;
+            color: #666;
+            border-color: #666;
         }
     </style>
   </head>
