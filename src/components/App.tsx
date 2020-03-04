@@ -26,6 +26,7 @@ export const App: React.FC = () => {
     <main>
       <h1>{state.text}</h1>
       <button onClick={() => dispatch(generate())} className={state.initDone ? '' : "disable"} disabled={!state.initDone}>Generate</button>
+      <div className="repo"><a href="https://github.com/kirisaki/flip-number">GitHub repository</a></div>
     </main>
   )
 }
