@@ -1719,12 +1719,10 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-fn-mt@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/fn-mt/-/fn-mt-1.0.1.tgz#abf5230d76138da91e061f0e099806d0399f04d7"
-  integrity sha512-WeeajkmNSqXTaFR9DtOvvqDTd+mp7NAcr0+/yRvZqO482IGZ89KR/ioizQP279iwViWT5NuEykY1m6hYUj838A==
-  dependencies:
-    typescript "^3.8.3"
+fn-mt@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fn-mt/-/fn-mt-1.2.0.tgz#d285341b1693fded1efbc2c40068b160459dfc64"
+  integrity sha512-zwGfSljXPlHlweN1dqjcf7iOm0kI/I7BVbl9tSF0M5yopglXFnaXHiBI8fPZNMdU6A3k2Y0vZ1+BZ2T1MuLAhw==
 
 follow-redirects@^1.0.0:
   version "1.10.0"
